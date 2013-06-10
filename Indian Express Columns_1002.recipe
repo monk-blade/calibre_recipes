@@ -1,0 +1,11 @@
+class AdvancedUserRecipe1365325360(BasicNewsRecipe):
+    title          = u'Indian Express Columns'
+    oldest_article = 21
+    max_articles_per_feed = 100
+    auto_cleanup = True
+
+    feeds          = [(u'C. Raja Mohan (Diplomacy)', u'http://syndication.indianexpress.com/rss/columnist/crajamohan.xml'), (u'Sunday Stories', u'http://syndication.indianexpress.com/rss/723/sunday-stories.xml')]
+
+    def print_version(self, url):
+        return url+'/0'
+
