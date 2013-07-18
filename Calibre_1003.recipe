@@ -1,0 +1,8 @@
+class AdvancedUserRecipe1365325396(BasicNewsRecipe):
+    title          = u'Calibre'
+    oldest_article = 30
+    max_articles_per_feed = 3
+    auto_cleanup = True
+    auto_cleanup_keep = '//img[@itemprop="image"]'
+    feeds          = [(u'Calibre- 1', u'http://thecalibre.in/feed')]
+
