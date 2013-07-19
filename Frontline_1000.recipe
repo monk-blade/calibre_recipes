@@ -1,0 +1,7 @@
+class BasicUserRecipe1374239103(AutomaticNewsRecipe):
+    title          = u'Frontline'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup = True
+
+    feeds          = [(u'Home', u'http://www.frontline.in/?service=rss')]
