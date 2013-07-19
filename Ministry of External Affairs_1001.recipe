@@ -1,0 +1,7 @@
+class BasicUserRecipe1374240928(AutomaticNewsRecipe):
+    title          = u'Ministry of External Affairs'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup = True
+
+    feeds          = [(u'In Focus News', u'http://www.mea.gov.in/Portal/XML/In_Focus_Article_1.xml')]
