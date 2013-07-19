@@ -1,0 +1,15 @@
+class AdvancedUserRecipe1365341701(BasicNewsRecipe):
+    title          = u'PIB'
+    oldest_article = 1000000
+    max_articles_per_feed = 25
+    auto_cleanup = True
+    
+    feeds          = [(u'Current Feeds', u'http://pib.nic.in/newsite/rssenglish_fea.aspx')]
+    keep_only_tags = [
+       dict(name='span', attrs={'id':'title'}),
+       dict(name='span', attrs={'id':'content'}),
+      
+    ]
+    no_stylesheets = True
+    extra_css = ' #title { font-family: verdana, helvetica, sans-serif; }     #title { font-weight: bold; font-size: 150%;}'
+

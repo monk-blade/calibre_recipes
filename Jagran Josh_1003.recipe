@@ -1,0 +1,7 @@
+class BasicUserRecipe1365323696(AutomaticNewsRecipe):
+    title          = u'Jagran Josh'
+    oldest_article = 15
+    max_articles_per_feed = 100
+    auto_cleanup = True
+
+    feeds          = [(u'Current Affairs', u'http://www.jagranjosh.com/rss/josh/current_affairs.xml')]
