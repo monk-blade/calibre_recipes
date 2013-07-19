@@ -1,0 +1,7 @@
+class BasicUserRecipe1374243904(AutomaticNewsRecipe):
+    title          = u'GKtoday'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup = True
+
+    feeds          = [(u'Home', u'http://feeds.feedburner.com/GeneralKnowledgeToday')]
