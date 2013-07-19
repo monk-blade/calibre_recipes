@@ -1,0 +1,7 @@
+class BasicUserRecipe1374241209(AutomaticNewsRecipe):
+    title          = u'IDSA'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    auto_cleanup = True
+
+    feeds          = [(u'Current News', u'http://idsa.in/rss.xml')]
