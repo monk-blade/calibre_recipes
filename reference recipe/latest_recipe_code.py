@@ -8,7 +8,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     max_articles_per_feed = 10000
     auto_cleanup = True
 
-    feeds          = [(u'name', u'rss_link')]
+    feeds = [(u'name', u'rss_link')]
 
     def parse_feeds(self):
         recipe_dir = os.path.join(config_dir,'recipes')
@@ -28,7 +28,6 @@ class OnlyLatestRecipe(BasicNewsRecipe):
                with file(feed_fn) as f:
                    for h in f:
                        past_items.add(h.strip())
-                       
             cur_items = set()
             for article in feed.articles[:]:
                 item_hash = md5()
@@ -50,4 +49,3 @@ class OnlyLatestRecipe(BasicNewsRecipe):
             feeds.remove(f)
 
         return feeds
-
