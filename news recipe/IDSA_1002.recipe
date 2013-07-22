@@ -16,7 +16,7 @@ class BasicUserRecipe1374241209(AutomaticNewsRecipe):
 
     # Set publisher and publication type.
     publisher = 'IDSA'
-    publication_type = 'web'
+    publication_type = 'blog'
 
     # Disable stylesheets from site.
     no_stylesheets = True

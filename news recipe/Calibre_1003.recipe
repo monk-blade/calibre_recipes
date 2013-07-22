@@ -15,7 +15,7 @@ class AdvancedUserRecipe1365325396(BasicNewsRecipe):
 
     # Set publisher and publication type.
     publisher = 'theCalibre.in'
-    publication_type = 'web'
+    publication_type = 'blog'
 
     # Disable stylesheets from site.
     no_stylesheets = True

@@ -16,7 +16,7 @@ class AdvancedUserRecipe1365341701(BasicNewsRecipe):
 
     # Set publisher and publication type.
     publisher = 'PIB'
-    publication_type = 'newspaper'
+    publication_type = 'blog'
 
     # Disable stylesheets from site.
     no_stylesheets = True

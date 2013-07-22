@@ -17,7 +17,7 @@ class BasicUserRecipe1374243904(AutomaticNewsRecipe):
 
     # Set publisher and publication type.
     publisher = 'GKToday.in'
-    publication_type = 'web'
+    publication_type = 'blog'
 
     # Disable stylesheets from site.
     no_stylesheets = True
