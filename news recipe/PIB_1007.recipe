@@ -3,7 +3,28 @@ class AdvancedUserRecipe1365341701(BasicNewsRecipe):
     oldest_article = 1000000
     max_articles_per_feed = 25
     auto_cleanup = True
-    
+    description = u'Press Information Beuro Ebook'
+
+    # Author of this recipe.
+    __author__ = 'arpan-chavda'
+
+    # Specify English as the language of the RSS feeds (ISO-639 code).
+    language = 'en_GB'
+
+    # Set tags.
+    tags = 'news, current-affairs'
+
+    # Set publisher and publication type.
+    publisher = 'PIB'
+    publication_type = 'newspaper'
+
+    # Disable stylesheets from site.
+    no_stylesheets = True
+
+    encoding = None
+    remove_empty_feeds = True
+    conversion_options = { 'smarten_punctuation' : True }
+
     feeds          = [(u'Current Feeds', u'http://pib.nic.in/newsite/rssenglish_fea.aspx')]
     keep_only_tags = [
        dict(name='span', attrs={'id':'title'}),
