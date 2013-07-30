@@ -27,12 +27,12 @@ class OnlyLatestRecipe(BasicNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True }
+    conversion_options = { 'smarten_punctuation' : True , 'search_replace': '[["\\u00c2", " "]]'}
 
     feeds          = [(u'Current Feeds', u'http://pib.nic.in/newsite/rssenglish_fea.aspx')]
     keep_only_tags = [
        dict(name='span', attrs={'id':'title'}),
-       dict(name='span', attrs={'id':'content'}),
+       dict(name='div', attrs={'class':'Section1'}),
       
     ]
     no_stylesheets = True
