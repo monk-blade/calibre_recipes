@@ -27,7 +27,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True }
+    conversion_options = { 'smarten_punctuation' : True , 'search_replace': '[["Please read our terms of use .*", ""]]' }
 
     feeds          = [(u'Editorials', u'http://syndication.indianexpress.com/rss/35/editorials.xml'), (u'Columns', u'http://syndication.indianexpress.com/rss/1295/express-columns.xml'), (u'Economy', u'http://syndication.indianexpress.com/rss/794/economy.xml'), (u'Op-Ed', u'http://syndication.indianexpress.com/rss/36/oped.xml'), (u'Science & Technology', u'http://syndication.indianexpress.com/rss/698/science---technology.xml'), (u'Climate Change', u'http://syndication.indianexpress.com/rss/912/climate-change.xml'), (u'ET-Environment', u'http://economictimes.indiatimes.com/rssfeeds/2647180.cms'), (u'Letters', u'http://syndication.indianexpress.com/rss/40/letters-to-editor.xml'), (u'Art & Culture', u'http://syndication.indianexpress.com/rss/1229/art---culture.xml'), (u'C. Raja Mohan (Diplomacy)', u'http://syndication.indianexpress.com/rss/columnist/crajamohan.xml'), (u'Sunday Stories', u'http://syndication.indianexpress.com/rss/723/sunday-stories.xml')]
 
