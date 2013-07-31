@@ -4,7 +4,7 @@ from hashlib import md5
 
 class OnlyLatestRecipe(BasicNewsRecipe):
     title          = u'The Hindu'
-    oldest_article = 2
+    oldest_article = 3
     max_articles_per_feed = 1000
     auto_cleanup = True
 
@@ -30,7 +30,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     remove_empty_feeds = True
     conversion_options = { 'smarten_punctuation' : True }
 
-    feeds          = [(u'National', u'http://www.thehindu.com/news/national/?service=rss'), (u'International', u'http://www.thehindu.com/news/international/?service=rss'), (u'Lead', u'http://www.thehindu.com/opinion/lead/?service=rss'), (u'Columns', u'http://www.thehindu.com/opinion/columns/?service=rss'), (u'Editorial', u'http://www.thehindu.com/opinion/editorial/?service=rss'), (u'Letters', u'http://www.thehindu.com/opinion/letters/?service=rss'), (u'Op-Ed', u'http://www.thehindu.com/opinion/op-ed/?service=rss'), (u"Readers' Editor", u'http://www.thehindu.com/opinion/Readers-Editor/?service=rss'), (u'Energy & Environment', u'http://www.thehindu.com/sci-tech/energy-and-environment/?service=rss'), (u'Medicine & Research', u'http://www.thehindu.com/sci-tech/health/medicine-and-research/?service=rss'), (u'Policy & Issues', u'http://www.thehindu.com/sci-tech/health/policy-and-issues/?service=rss'), (u'Education', u'http://www.thehindu.com/features/education/?service=rss'), (u'Science', u'http://www.thehindu.com/sci-tech/science/?service=rss'), (u'Technology', u'http://www.thehindu.com/sci-tech/technology/?service=rss'), (u'Economy', u'http://www.thehindu.com/business/Economy/?service=rss'), (u'Sports', u'http://www.thehindu.com/sport/?service=rss'), (u'Industry', u'http://www.thehindu.com/business/Industry/?service=rss'), (u'Friday Feast', u'http://www.thehindu.com/features/friday-review/?service=rss')]   
+    feeds          = [(u'National', u'http://www.thehindu.com/news/national/?service=rss'), (u'International', u'http://www.thehindu.com/news/international/?service=rss'), (u'Lead', u'http://www.thehindu.com/opinion/lead/?service=rss'), (u'Columns', u'http://www.thehindu.com/opinion/columns/?service=rss'), (u'Editorial', u'http://www.thehindu.com/opinion/editorial/?service=rss'), (u'Letters', u'http://www.thehindu.com/opinion/letters/?service=rss'), (u'Op-Ed', u'http://www.thehindu.com/opinion/op-ed/?service=rss'), (u"Readers' Editor", u'http://www.thehindu.com/opinion/Readers-Editor/?service=rss'), (u'Energy & Environment', u'http://www.thehindu.com/sci-tech/energy-and-environment/?service=rss'), (u'Health', u'http://www.thehindu.com/sci-tech/health/?service=rss'), (u'Education', u'http://www.thehindu.com/features/education/?service=rss'), (u'Science', u'http://www.thehindu.com/sci-tech/science/?service=rss'), (u'Technology', u'http://www.thehindu.com/sci-tech/technology/?service=rss'), (u'Economy', u'http://www.thehindu.com/business/Economy/?service=rss'), (u'Sports', u'http://www.thehindu.com/sport/?service=rss'), (u'Industry', u'http://www.thehindu.com/business/Industry/?service=rss'), (u'Friday Feast', u'http://www.thehindu.com/features/friday-review/?service=rss')]   
 
     def parse_feeds(self):
         recipe_dir = os.path.join(config_dir,'recipes')

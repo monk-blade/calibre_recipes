@@ -3,7 +3,7 @@ import os, os.path, urllib
 from hashlib import md5
 
 class OnlyLatestRecipe(BasicNewsRecipe):
-    title          = u'Mrunal'
+    title          = u'Mrunal.org'
     oldest_article = 15
     max_articles_per_feed = 10000
     auto_cleanup = True
