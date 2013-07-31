@@ -30,7 +30,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
 
     auto_cleanup = True
     auto_cleanup_keep = '//img[@itemprop="image"]'
-    feeds          = [(u'Blog of Seniors', u'http://swapsushias.blogspot.com/feeds/posts/default?alt=rss'), (u'Jagran Josh', u'http://www.jagranjosh.com/rss/josh/current_affairs.xml'), (u'GKToday.in', u'http://feeds.feedburner.com/GeneralKnowledgeToday'), (u'Calibre.in', u'http://thecalibre.in/feed')]
+    feeds          = [(u'Jagran Josh', u'http://www.jagranjosh.com/rss/josh/current_affairs.xml'), (u'GKToday.in', u'http://feeds.feedburner.com/GeneralKnowledgeToday'), (u'Calibre.in', u'http://thecalibre.in/feed')]
 
     def parse_feeds(self):
         recipe_dir = os.path.join(config_dir,'recipes')

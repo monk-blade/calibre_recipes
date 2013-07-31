@@ -4,7 +4,7 @@ from hashlib import md5
 
 class OnlyLatestRecipe(BasicNewsRecipe):
     title          = u'IDSA,MEA and PRS'
-    oldest_article = 15
+    oldest_article = 7
     max_articles_per_feed = 10000
     auto_cleanup = True
     description = u'IDSA,MEA and PRS web sites ebook created using rss feeds.'
