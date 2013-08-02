@@ -1,5 +1,8 @@
-calibre recipes are **free** for **personal** and **non-commerical** useful.
-Any Commercial act using this recipes are **prohibited** because content fetched by recipes are of respective owners.I am **not** responsible of any content fetched by Recipes.    
+calibre-recipes are **free** for **personal** and **non-commerical** use under following terms.
+
+- Any Commercial act including conversions using this recipes are **prohibited** because content fetched by recipes are of respective owners.
+- I am **not** responsible of any content fetched by Recipes.
+- Please refer website of respective owners for content related license.
 
 	Copyright (C) 2013  **Arpan Chavda**
 
