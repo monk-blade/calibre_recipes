@@ -3,7 +3,7 @@ class AdvancedUserRecipe1365325651(BasicNewsRecipe):
     oldest_article = 2
     max_articles_per_feed = 100
     auto_cleanup = True
-
+    masthead_url = 'http://www.thehindu.com/template/1-0-1/gfx/logo.jpg'
 	description = u'The Hindu newspaper ebook'
 
     # Author of this recipe.

@@ -7,6 +7,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     oldest_article = 2
     max_articles_per_feed = 1000
     auto_cleanup = True
+    masthead_url = 'http://static.indianexpress.com/frontend/iep/images/images_new2013/logo.jpg'
     description = u'Indian Express Newspaper ebook created using rss feeds.'
 
     # Author of this recipe.

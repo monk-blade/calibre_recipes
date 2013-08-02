@@ -8,7 +8,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     max_articles_per_feed = 100000
     auto_cleanup = False
     description = u'Press Information Beuro Ebook'
-
+    masthead_url = 'http://pib.nic.in/newsite/image/pibimage.jpg'
     # Author of this recipe.
     __author__ = 'arpan-chavda'
 

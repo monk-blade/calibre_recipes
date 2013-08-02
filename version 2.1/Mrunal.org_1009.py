@@ -8,7 +8,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     max_articles_per_feed = 10000
     auto_cleanup = True
     description = u'Mrunal blog ebook created using rss feeds.'
-
+    masthead_url = 'https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc1/376962_238261119628582_1219921430_n.jpg'
     # Author of this recipe.
     __author__ = 'arpan-chavda'
 

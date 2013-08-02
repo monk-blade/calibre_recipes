@@ -3,8 +3,8 @@ class AdvancedUserRecipe1365325384(BasicNewsRecipe):
     oldest_article = 2
     max_articles_per_feed = 100
     auto_cleanup = True
-	description = u'Indian Express Column's ebook created using rss feeds.'
-
+	description = u'Indian Express Column\'s ebook created using rss feeds.'
+    masthead_url = 'http://static.indianexpress.com/frontend/iep/images/images_new2013/logo.jpg'
     # Author of this recipe.
     __author__ = 'arpan-chavda'
 

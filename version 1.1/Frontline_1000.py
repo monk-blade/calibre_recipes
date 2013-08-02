@@ -4,7 +4,7 @@ class BasicUserRecipe1374243421(AutomaticNewsRecipe):
     max_articles_per_feed = 100
     auto_cleanup = True
     description = u'Frontline magazine ebook created using rss feeds.'
-
+    masthead_url = 'http://www.frontline.in/template/1-0-1/gfx/fl_logo.jpg'
     # Author of this recipe.
     __author__ = 'arpan-chavda'
 

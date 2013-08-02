@@ -7,6 +7,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     oldest_article = 7
     max_articles_per_feed = 100
     auto_cleanup = True
+    masthead_url = 'http://www.frontline.in/template/1-0-1/gfx/fl_logo.jpg'
     description = u'Frontline magazine ebook created using rss feeds.'
 
     # Author of this recipe.
