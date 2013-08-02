@@ -4,7 +4,9 @@ calibre-recipes are **free** for **personal** and **non-commerical** use under f
 - I am **not** responsible of any content fetched by Recipes.
 - Please refer website of respective owners for content related license.
 
-	Copyright (C) 2013  **Arpan Chavda**
+------------------------
+
+	Copyright (C) 2013  Arpan Chavda(arpanchavdaeng@gmail.com)
 
     This program or scripts is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
