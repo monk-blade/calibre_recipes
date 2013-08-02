@@ -6,7 +6,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     title          = u'PIB'
     oldest_article = 15
     max_articles_per_feed = 100000
-    auto_cleanup = True
+    auto_cleanup = False
     description = u'Press Information Beuro Ebook'
 
     # Author of this recipe.
@@ -30,8 +30,11 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     conversion_options = { 'remove_paragraph_spacing': True, 'remove_paragraph_spacing_indent_size': 1.2, 'smarten_punctuation' : True , 'search_replace': '[["\\u00c2", ""]]'}
 
     feeds          = [(u'Current Feeds', u'http://pib.nic.in/newsite/rssenglish_fea.aspx')]
-    keep_only_tags = [dict(name='span', attrs={'id':'title'}), dict(name='div', attrs={'class':'Section1'})]
-    
+    keep_only_tags = [dict(name='div', attrs={'class':'contentdiv'})]
+    preprocess_regexps = [
+   (re.compile(r'\(PIB Features.*</body>', re.DOTALL|re.IGNORECASE),
+    lambda match: '</body>'),
+]
     extra_css = ' #title { font-family: verdana, helvetica, sans-serif; }     #title { font-weight: bold; font-size: 150%;}'
     def parse_feeds(self):
         recipe_dir = os.path.join(config_dir,'recipes')
