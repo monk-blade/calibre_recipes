@@ -1,3 +1,4 @@
+from calibre.utils.magick import Image
 class BasicUserRecipe1374243149(AutomaticNewsRecipe):
     title          = u"Seniors' Blog"
     oldest_article = 7
@@ -26,3 +27,14 @@ class BasicUserRecipe1374243149(AutomaticNewsRecipe):
     conversion_options = { 'smarten_punctuation' : True }
 
     feeds          = [(u'Current Feeds', u'http://swapsushias.blogspot.com/feeds/posts/default?alt=rss')]
+    def postprocess_html(self, soup, first):
+        #process all the images
+        for tag in soup.findAll(lambda tag: tag.name.lower()=='img' and tag.has_key('src')):
+            iurl = tag['src']
+            img = Image()
+            img.open(iurl)
+            if img < 0:
+                raise RuntimeError('Out of memory')
+            img.type = "GrayscaleType"
+            img.save(iurl)
+        return soup

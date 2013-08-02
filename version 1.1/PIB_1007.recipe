@@ -2,7 +2,7 @@ class AdvancedUserRecipe1365341701(BasicNewsRecipe):
     title          = u'PIB'
     oldest_article = 1000000
     max_articles_per_feed = 25
-    auto_cleanup = True
+    auto_cleanup = False
     description = u'Press Information Beuro Ebook'
 
     # Author of this recipe.
@@ -23,14 +23,12 @@ class AdvancedUserRecipe1365341701(BasicNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True }
+    conversion_options = { 'remove_paragraph_spacing': True, 'remove_paragraph_spacing_indent_size': 1.2, 'smarten_punctuation' : True , 'search_replace': '[["\\u00c2", ""]]'}
 
     feeds          = [(u'Current Feeds', u'http://pib.nic.in/newsite/rssenglish_fea.aspx')]
-    keep_only_tags = [
-       dict(name='span', attrs={'id':'title'}),
-       dict(name='span', attrs={'id':'content'}),
-      
-    ]
-    no_stylesheets = True
+    keep_only_tags = [dict(name='div', attrs={'class':'contentdiv'})]
+    preprocess_regexps = [
+   (re.compile(r'\(PIB Features.*</body>', re.DOTALL|re.IGNORECASE),
+    lambda match: '</body>'),
+]
     extra_css = ' #title { font-family: verdana, helvetica, sans-serif; }     #title { font-weight: bold; font-size: 150%;}'
-
