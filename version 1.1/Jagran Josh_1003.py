@@ -23,6 +23,6 @@ class BasicUserRecipe1365323696(AutomaticNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True }
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'smarten_punctuation' : True }
 
     feeds          = [(u'Current Affairs', u'http://www.jagranjosh.com/rss/josh/current_affairs.xml')]

@@ -27,7 +27,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'remove_paragraph_spacing': True, 'remove_paragraph_spacing_indent_size': 1.2, 'smarten_punctuation' : True , 'search_replace': '[["\\u00c2", ""]]'}
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'remove_paragraph_spacing': True, 'remove_paragraph_spacing_indent_size': 1.2, 'smarten_punctuation' : True , 'search_replace': '[["\\u00c2", ""]]'}
 
     feeds          = [(u'Current Feeds', u'http://pib.nic.in/newsite/rssenglish_fea.aspx')]
     keep_only_tags = [dict(name='div', attrs={'class':'contentdiv'})]

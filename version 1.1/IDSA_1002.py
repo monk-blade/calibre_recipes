@@ -23,6 +23,6 @@ class BasicUserRecipe1374241209(AutomaticNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True , 'search_replace': '[["Views expressed are of the author and do not necessarily reflect the views of the IDSA or of the Government of India.", ""]]' }
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'smarten_punctuation' : True , 'search_replace': '[["Views expressed are of the author and do not necessarily reflect the views of the IDSA or of the Government of India.", ""]]' }
 
     feeds          = [(u'Current News', u'http://idsa.in/rss.xml')]

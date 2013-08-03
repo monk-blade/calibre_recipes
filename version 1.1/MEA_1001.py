@@ -24,6 +24,6 @@ class BasicUserRecipe1374240928(AutomaticNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True }
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'smarten_punctuation' : True }
 
     feeds          = [(u'In Focus News', u'http://www.mea.gov.in/Portal/XML/In_Focus_Article_1.xml')]

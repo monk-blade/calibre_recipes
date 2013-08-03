@@ -25,7 +25,7 @@ class AdvancedUserRecipe1365325360(BasicNewsRecipe):
     encoding = None
     remove_javascript = True
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True , 'search_replace': '[["TERMS OF USE: .*.", ""], ["express@expressindia.com", ""]]' }
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'smarten_punctuation' : True , 'search_replace': '[["TERMS OF USE: .*.", ""], ["express@expressindia.com", ""]]' }
     feeds          = [(u'C. Raja Mohan (Diplomacy)', u'http://syndication.indianexpress.com/rss/columnist/crajamohan.xml'), (u'Sunday Stories', u'http://syndication.indianexpress.com/rss/723/sunday-stories.xml')]
 
     def print_version(self, url):

@@ -30,7 +30,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     #Removing Empty feeds
     remove_empty_feeds = True
     
-    conversion_options = { 'smarten_punctuation' : True , 'search_replace': '[["Views expressed are of the author and do not necessarily reflect the views of the IDSA or of the Government of India.", ""]]' }
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'smarten_punctuation' : True , 'search_replace': '[["Views expressed are of the author and do not necessarily reflect the views of the IDSA or of the Government of India.", ""]]' }
 
     feeds          = [(u'IDSA', u'http://idsa.in/rss.xml'), (u'MEA - News', u'http://www.mea.gov.in/Portal/XML/In_Focus_Article_1.xml'), (u'PRS - Blog', u'http://www.prsindia.org/theprsblog/?feed=rss2')]
     def parse_feeds(self):

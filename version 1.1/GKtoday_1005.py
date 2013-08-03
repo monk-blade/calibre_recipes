@@ -24,5 +24,5 @@ class BasicUserRecipe1374243904(AutomaticNewsRecipe):
 
     encoding = None
     remove_empty_feeds = True
-    conversion_options = { 'smarten_punctuation' : True , 'search_replace': '[["Show Answer", ""], ["Download article as PDF", ""]]'}
+    conversion_options = { 'comment' : description, 'tags' : category, 'publisher' : publisher, 'language' : language, 'smarten_punctuation' : True , 'search_replace': '[["Show Answer", ""], ["Download article as PDF", ""]]'}
     feeds          = [(u'Home', u'http://feeds.feedburner.com/GeneralKnowledgeToday')]
