@@ -32,6 +32,7 @@ class Frontlineonnet(BasicNewsRecipe):
                         , 'tags'             : category
                         , 'publisher'        : publisher
                         , 'language'         : language
+                        ,'search_replace': '[["<a.*>Back</a>", ""], ["<span.*>Vol.*</span>", ""], ["<span.*>URL.*</span>", ""]]'
                         }
 
     preprocess_regexps = [
