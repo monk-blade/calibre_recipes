@@ -14,10 +14,10 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     __author__ = 'arpan-chavda'
 
     # Specify English as the language of the RSS feeds (ISO-639 code).
-    language = 'en_GB'
+    language = 'en_IN'
 
-    # Set tags.
-    tags = 'news, sport, blog'
+    # Set category.
+    category = 'news, sport, blog'
 
     # Set publisher and publication type.
     publisher = 'Frontline'

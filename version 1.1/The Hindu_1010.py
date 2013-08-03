@@ -4,13 +4,13 @@ class AdvancedUserRecipe1365325651(BasicNewsRecipe):
     max_articles_per_feed = 100
     auto_cleanup = True
     masthead_url = 'http://www.thehindu.com/template/1-0-1/gfx/logo.jpg'
-	description = u'The Hindu newspaper ebook'
+    description = u'The Hindu newspaper ebook'
 
     # Author of this recipe.
     __author__ = 'arpan-chavda'
 
     # Specify English as the language of the RSS feeds (ISO-639 code).
-    language = 'en_GB'
+    language = 'en_IN'
 
     # Set tags.
     tags = 'news'

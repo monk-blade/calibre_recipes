@@ -4,13 +4,13 @@ class BasicUserRecipe1374240928(AutomaticNewsRecipe):
     max_articles_per_feed = 100
     auto_cleanup = True
 
-	description = u'Ministry of External Affairs website ebook created using rss feeds.'
+    description = u'Ministry of External Affairs website ebook created using rss feeds.'
 
     # Author of this recipe.
     __author__ = 'arpan-chavda'
 
     # Specify English as the language of the RSS feeds (ISO-639 code).
-    language = 'en_GB'
+    language = 'en_IN'
 
     # Set tags.
     tags = 'news'
