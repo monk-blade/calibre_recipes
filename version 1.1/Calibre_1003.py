@@ -22,7 +22,7 @@ class AdvancedUserRecipe1365325396(BasicNewsRecipe):
     # Set publisher and publication type.
     publisher = 'theCalibre.in'
     publication_type = 'blog'
-
+    masthead_url = 'http://thecalibre.in/wp-content/themes/wp-trustme/img/logo.png'
     # Disable stylesheets from site.
     no_stylesheets = True
 

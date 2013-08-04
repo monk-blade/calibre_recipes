@@ -23,7 +23,7 @@ class BasicUserRecipe1365323696(AutomaticNewsRecipe):
     # Set publisher and publication type.
     publisher = 'Jagran Josh'
     publication_type = 'blog'
-
+    masthead_url = 'http://www.jagranjosh.com/Resources/edu2/images/jagran_josh_logo.gif'
     # Disable stylesheets from site.
     no_stylesheets = True
 

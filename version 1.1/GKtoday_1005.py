@@ -24,7 +24,7 @@ class BasicUserRecipe1374243904(AutomaticNewsRecipe):
     # Set publisher and publication type.
     publisher = 'GKToday.in'
     publication_type = 'blog'
-
+    masthead_url = 'http://www.gktoday.in/wp-content/themes/Ocean/images/logo_placement.gif'
     # Disable stylesheets from site.
     no_stylesheets = True
 

@@ -22,7 +22,7 @@ class Frontlineonnet(BasicNewsRecipe):
     encoding             = 'utf-8'
     language             = 'en_IN'
     publication_type     = 'magazine'
-    #masthead_url         = 'http://www.sportstaronnet.com/ss_weekly.jpg'
+    masthead_url         = 'http://ubuntuone.com/7StA8s2Q8NopauiIFfxPfm'
     extra_css            = """
                               body{font-family: Verdana,Arial,Helvetica,sans-serif}
                               img{margin-top:0.5em; margin-bottom: 0.7em; display: block}

@@ -24,7 +24,7 @@ class BasicUserRecipe1374240928(AutomaticNewsRecipe):
     # Set publisher and publication type.
     publisher = 'MEA'
     publication_type = 'blog'
-
+    masthead_url = 'http://www.mea.gov.in/images/logo-ministry-of-external-affairs.gif'
     # Disable stylesheets from site.
     no_stylesheets = True
 

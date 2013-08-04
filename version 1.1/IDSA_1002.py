@@ -23,7 +23,7 @@ class BasicUserRecipe1374241209(AutomaticNewsRecipe):
     # Set publisher and publication type.
     publisher = 'IDSA'
     publication_type = 'blog'
-
+    masthead_url = 'http://idsa.in/themes/idsa2012/images/logo.gif'
     # Disable stylesheets from site.
     no_stylesheets = True
 
