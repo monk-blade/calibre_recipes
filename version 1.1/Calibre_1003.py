@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+thecalibre.in
+'''
+
 class AdvancedUserRecipe1365325396(BasicNewsRecipe):
     title          = u'Calibre'
     oldest_article = 30

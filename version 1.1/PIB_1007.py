@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+pib.nic.in
+'''
+
 class AdvancedUserRecipe1365341701(BasicNewsRecipe):
     title          = u'PIB'
     oldest_article = 1000000

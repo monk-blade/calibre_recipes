@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+idsa.in,mea.gov.in,prsindia.org
+'''
+
 from calibre.constants import config_dir, CONFIG_DIR_MODE
 import os, os.path, urllib
 from hashlib import md5

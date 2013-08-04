@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+jagranjosh.in
+'''
+
 class BasicUserRecipe1365323696(AutomaticNewsRecipe):
     title          = u'Jagran Josh'
     oldest_article = 15

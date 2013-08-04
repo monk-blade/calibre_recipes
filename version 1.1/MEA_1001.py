@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+mea.gov.in
+'''
+
 class BasicUserRecipe1374240928(AutomaticNewsRecipe):
     title          = u'Ministry of External Affairs'
     oldest_article = 7

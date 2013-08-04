@@ -15,7 +15,6 @@ class Frontlineonnet(BasicNewsRecipe):
     publisher            = 'Sportstar'
     category             = 'news, sports, India'
     no_stylesheets       = True
-    delay                = 1
     INDEX                = 'http://www.sportstaronnet.com/'
     use_embedded_content = False
     encoding             = 'utf-8'

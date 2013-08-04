@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+thehindu.com
+'''
+
 class AdvancedUserRecipe1365325651(BasicNewsRecipe):
     title          = u'The Hindu'
     oldest_article = 2

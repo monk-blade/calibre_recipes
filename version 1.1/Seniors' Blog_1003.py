@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+swapsusias.blogspot.com
+'''
+
 from calibre.utils.magick import Image
 class BasicUserRecipe1374243149(AutomaticNewsRecipe):
     title          = u"Seniors' Blog"

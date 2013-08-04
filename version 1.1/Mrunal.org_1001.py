@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+mrunal.org
+'''
+
 class AdvancedUserRecipe1365325396(BasicNewsRecipe):
     title          = u'Mrunal.org'
     oldest_article = 7

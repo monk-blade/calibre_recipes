@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+indianexpress.com
+'''
+
 class AdvancedUserRecipe1365325384(BasicNewsRecipe):
     title          = u'Indian Express Daily'
     oldest_article = 2

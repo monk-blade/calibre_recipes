@@ -1,3 +1,9 @@
+__license__   = 'GPL v3'
+__copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
+'''
+idsa.in
+'''
+
 class BasicUserRecipe1374241209(AutomaticNewsRecipe):
     title          = u'IDSA'
     oldest_article = 7
